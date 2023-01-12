@@ -1,0 +1,26 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 15px;
+    // margin-right: 150px;
+}
+
+.buttons {
+    margin-right: 20px;
+}
+
+.button {
+    width: 30px;
+    height: 30px;
+    color: rgb(102, 102, 211);
+    border: 1px solid blue;
+    border-radius: 6px;
+    cursor: pointer;
+}
